@@ -1,97 +1,61 @@
-# Openclaw_Laudo — Condomínio Jardim das Flores
-## Rua João Lira, 15 — Leblon/RJ
+# Laudos e Vistorias Prediais
+## Time Designer — Rio de Janeiro/RJ
 
-Pasta criada em 08/11/2026 pela OpenClaw para produção do laudo de autovistoria predial.
+Repositório de laudos técnicos de autovistoria predial (NBR 16747:2020).  
+Cada vistoria tem sua própria pasta em `vistorias/`.
 
 ---
 
-## Estrutura
+## Vistorias
+
+| Pasta | Imóvel | Status | Laudo final |
+|:---|:---|:---|:---|
+| `joao-lira-60-solar-caravelas` | Edifício Solar Caravelas — Rua João Lira, 60 — Leblon/RJ | ✅ Concluído (Mai/2026) | `Saida/laudo-05.docx` |
+| `joao-lira-15-jardim-das-flores` | Condomínio Jardim das Flores — Rua João Lira, 15 — Leblon/RJ | 🔄 Em elaboração | Aguarda conversa com RT |
+
+---
+
+## Estrutura padrão de cada vistoria
 
 ```
-Openclaw_Laudo/
-├── README.md                    ← Este arquivo
-├── BRIEFING_ENGENHEIRO.md       ← Roteiro de perguntas para a conversa com o RT
-│
-├── Fotos_Organizadas/           ← 210 fotos da vistoria (prontas para o script)
-│   └── IMG_1472.jpeg … IMG_1681.jpeg
-│
+vistorias/<slug>/
+├── README.md                    ← contexto e status da vistoria
+├── BRIEFING_ENGENHEIRO.md       ← perguntas para o responsável técnico
 ├── Laudo/
-│   ├── Laudo_Jardim_das_Flores.md   ← Esqueleto do laudo (preencher após conversa)
-│   └── Analise_Fotografica_Completa.md  ← Gerado pelo Script 01
-│
+│   ├── Laudo_<Nome>.md          ← laudo técnico em Markdown
+│   ├── Analise_Fotografica_Completa.md  ← saída da análise IA
+│   └── Comparativo_*.md         ← comparativo com laudo anterior (se houver)
 ├── Scripts/
-│   ├── 00_preparar_fotos.py     ← Opcional: converter HEIC, reorganizar
-│   ├── 01_analisar_fotos_bedrock.py  ← Análise IA das 210 fotos via AWS Bedrock
-│   └── 02_gerar_laudo_docx.py   ← Gera laudo.docx a partir do Markdown
-│
+│   ├── 01_analisar_fotos_bedrock.py  ← análise IA das fotos via AWS Bedrock
+│   └── 02_gerar_laudo_docx.py        ← geração do DOCX final
 └── Saida/
-    └── laudo_jardim_das_flores.docx  ← Gerado pelo Script 02
+    └── laudo-XX.docx            ← versão final publicada
+```
+
+> **Fotos e PDFs pesados** ficam localmente no Obsidian vault — não são versionados aqui.
+
+---
+
+## Pipeline de produção
+
+```
+Fotos JPEG
+    │
+    ▼
+01_analisar_fotos_bedrock.py  →  Analise_Fotografica_Completa.md
+    │
+    ▼
+Conversa com engenheiro  →  Laudo_<Nome>.md (preenchido)
+    │
+    ▼
+02_gerar_laudo_docx.py  →  Saida/laudo-XX.docx
 ```
 
 ---
 
-## Workflow — 3 etapas
+## Legislação base (Rio de Janeiro)
 
-### Etapa 0 — Conversa com o engenheiro (PRÓXIMO PASSO)
-Abrir `BRIEFING_ENGENHEIRO.md` e fazer as perguntas ao responsável técnico.
-Com as respostas, preencher as seções `⚠️` no `Laudo/Laudo_Jardim_das_Flores.md`.
-
-### Etapa 1 — Análise fotográfica via IA
-```bash
-cd Scripts
-python3 01_analisar_fotos_bedrock.py
-```
-- Lê todas as fotos de `Fotos_Organizadas/`
-- Envia em lotes de 5 para o Claude via AWS Bedrock
-- Salva resultado em `Laudo/Analise_Fotografica_Completa.md`
-- **Pré-requisito:** credenciais AWS configuradas (ver o script)
-
-### Etapa 2 — Geração do DOCX
-```bash
-cd Scripts
-python3 02_gerar_laudo_docx.py
-```
-- Lê `Laudo/Laudo_Jardim_das_Flores.md`
-- Insere imagens nos tópicos (configurar `SECTION_FOTO_MAP` no script)
-- Salva `Saida/laudo_jardim_das_flores.docx`
-- **Pré-requisito:** `pip3 install python-docx Pillow`
-
----
-
-## Diferenças em relação ao Vistoria--60 (nº 60)
-
-| Vistoria--60 | Jardim das Flores (nº 15) |
-|:---|:---|
-| 229 fotos | 210 fotos |
-| Laudo anterior (2019) disponível | **Sem laudo anterior** — primeira vistoria |
-| Imagens do DOCX extraídas do laudo-03 | Imagens direto de `Fotos_Organizadas/` |
-| Script `gerar_laudo04.py` | Script `02_gerar_laudo_docx.py` (adaptado) |
-| Fachada em mármore confirmada | Tipo de revestimento a confirmar em campo |
-| Problema crítico: 7 anos sem correção | Situação atual desconhecida, sem histórico |
-
----
-
-## O que os agentes de IA já fizeram antes desta pasta
-
-Em outubro/2026, agentes processaram as 210 fotos com 4 modelos (Sonnet 4.5, Sonnet 4.6,
-Nova Pro, Nova 2 Lite) em duas versões (V1 e V2). Resultados disponíveis em:
-
-- `../Previa e Comparacao/RELATORIO_AUTOVISTORIA_JARDIM_DAS_FLORES_V02.md` — melhor consolidação
-- `../Previa e Comparacao/MATRIZ_210_FOTOS.md` — prioridade foto a foto
-- `../comparacao_modelos/` e `../comparacao_checklist_v2/` — dados brutos
-
-**8 ocorrências foram pré-identificadas pela IA** (OC-01 a OC-08).
-O engenheiro deve confirmar, expandir ou descartar cada uma.
-
----
-
-## Status atual
-
-- [x] Fotos organizadas (210 imagens)
-- [x] Esqueleto do laudo criado
-- [x] Scripts prontos (análise + DOCX)
-- [x] Briefing de perguntas para o engenheiro
-- [ ] **PRÓXIMO: Conversa com o engenheiro → preencher laudo**
-- [ ] Rodar análise fotográfica Bedrock
-- [ ] Revisar e completar laudo Markdown
-- [ ] Gerar DOCX final
+- Lei Estadual nº 6.400/2013
+- Lei Complementar Municipal nº 126/2013
+- Decreto Municipal nº 37.426/2013
+- ABNT NBR 16747:2020 — Inspeção predial

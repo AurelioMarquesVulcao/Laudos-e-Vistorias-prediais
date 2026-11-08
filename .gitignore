@@ -1,8 +1,20 @@
-# Fotos — ficam locais, não vão pro git (pesadas demais)
-Fotos_Organizadas/
+# Fotos — ficam locais no vault Obsidian (muito pesadas)
+**/Fotos_Organizadas/
+**/Fotos JPEG/
+**/Fotos Originais/
+**/Fotos Vistoria/
 
-# Saídas geradas
-Saida/
+# PDFs intermediários e pesados (>10MB)
+**/laudo-01.pdf
+**/laudo-02.pdf
+**/laudo-03.pdf
+**/laudo-04.pdf
+**/laudo-05.pdf
+**/PAPEL TIMBRADO.pdf
+**/PAPEL TIMBRADO.docx
+
+# Saída temporária
+Saida/*.pdf
 
 # macOS
 .DS_Store
@@ -12,3 +24,6 @@ Saida/
 __pycache__/
 *.pyc
 *.pyo
+
+# Obsidian
+.obsidian/
