@@ -1,0 +1,14 @@
+# Fotos — ficam locais, não vão pro git (pesadas demais)
+Fotos_Organizadas/
+
+# Saídas geradas
+Saida/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
