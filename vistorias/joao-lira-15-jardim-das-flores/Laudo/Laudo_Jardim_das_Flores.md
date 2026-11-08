@@ -12,16 +12,16 @@
 | **Endereço** | Rua João Lira, nº 15 — Leblon, Rio de Janeiro/RJ |
 | **CEP** | 22430-210 |
 | **Tipo** | Edificação residencial multifamiliar |
-| **Composição** | ⚠️ PREENCHER: nº de pavimentos, subsolos, unidades, vagas |
-| **Idade estimada** | ⚠️ PREENCHER após confirmação documental |
-| **Fachada** | ⚠️ PREENCHER: tipo de revestimento identificado em campo |
+| **Composição** | Cobertura duplex + 4 pavimentos tipo + garagem |
+| **Idade estimada** | A confirmar documentalmente |
+| **Fachada** | Revestimento em pedra (fixação mecânica) |
 | **Localização** | Próximo à orla marítima — classe de agressividade III/IV (NBR 6118) |
-| **Data da vistoria** | ⚠️ PREENCHER |
-| **Solicitante / Síndico** | ⚠️ PREENCHER |
-| **Responsável Técnico** | ⚠️ PREENCHER |
-| **Registro Profissional** | ⚠️ PREENCHER |
-| **ART / RRT** | ⚠️ PREENCHER |
-| **Código do laudo** | ⚠️ PREENCHER |
+| **Data da vistoria** | Novembro de 2026 |
+| **Solicitante / Síndico** | ⚠️ A preencher |
+| **Responsável Técnico** | ⚠️ A preencher |
+| **Registro Profissional** | ⚠️ A preencher |
+| **ART / RRT** | ⚠️ A preencher |
+| **Código do laudo** | ⚠️ A preencher |
 
 ---
 
@@ -29,7 +29,7 @@
 
 Realizar inspeção predial conforme ABNT NBR 16747:2020, atendendo à obrigatoriedade de autovistoria periódica (quinquenal) estabelecida pela legislação estadual e municipal do Rio de Janeiro, avaliando as condições de conservação, estabilidade e segurança da edificação.
 
-Não há laudo anterior disponível para comparação. Este documento constitui o primeiro registro técnico sistematizado.
+Não há laudo anterior disponível para comparação. Este documento constitui o primeiro registro técnico sistematizado do imóvel.
 
 ---
 
@@ -52,8 +52,8 @@ Não há laudo anterior disponível para comparação. Este documento constitui 
 - NBR 6122 — Fundações
 - NBR 9575 — Impermeabilização
 - NBR 14718 — Guarda-corpos
-- NBR 13755:2017 — Revestimento de fachadas (se cerâmico)
-- NBR 15846:2010 — Fachadas com fixação mecânica (se aplicável)
+- NBR 15846:2010 — Fachadas de pedras com fixação mecânica
+- NBR 13755:2017 — Revestimento de fachadas
 - NBR 5410 — Instalações elétricas de baixa tensão
 - NBR 5419 — SPDA / aterramento
 - NBR 15526 — Instalações de gás
@@ -69,14 +69,7 @@ Não há laudo anterior disponível para comparação. Este documento constitui 
 
 ## 4. METODOLOGIA
 
-Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotográfico de 210 imagens, abrangendo:
-
-1. Levantamento de dados e documentação
-2. Vistoria sistêmica dos sistemas construtivos
-3. Análise fotográfica via IA (AWS Bedrock / Claude) como apoio ao levantamento
-4. Classificação de anomalias e falhas pelo responsável técnico
-5. Classificação do grau de prioridade
-6. Recomendações técnicas
+Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotográfico de 210 imagens. O percurso partiu da cobertura descendo até a garagem, abrangendo: apartamento de cobertura (duplex), casas de máquinas, prisma de ventilação, escada de incêndio, fachada e pavimentos tipo.
 
 ### Classificação de Prioridade (NBR 16747):
 - **Prioridade 1 (CRÍTICO)** 🔴 — Risco iminente à saúde/segurança. Ação imediata.
@@ -89,206 +82,331 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 
 ---
 
-### 5.1 ESTRUTURA
+### 5.1 COBERTURA
 
-#### 5.1.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- ⚠️ Descrever anomalias estruturais observadas em campo
-- Pilares, vigas, lajes, garagem, subsolo
+#### 5.1.1 Guarda-corpo — Madeira podre com risco imediato de queda
 
-**Diagnóstico:** ⚠️ A preencher
+- Guarda-corpo executado em madeira — material inadequado para ambiente marinho
+- No momento da vistoria encontrava-se solto e em estado avançado de apodrecimento
+- Diversas seções já colapsaram, com ausência total de proteção nesses trechos
+- Durante a vistoria, o estado do guarda-corpo quase causou queda do engenheiro vistoriante
+- Acesso à cobertura realizado por escada de marinheiro — fora de norma, vão estreito
 
-**Normas:** NBR 6118 | NBR 6122
+**Diagnóstico:** Proteção coletiva contra queda completamente comprometida. A ausência de guarda-corpo contínuo e resistente configura risco iminente de queda de pessoas do topo da edificação. A escada de marinheiro não atende aos requisitos de acesso seguro à cobertura.
 
-**Prioridade: ⚠️ A definir**
+**Normas:** NBR 14718 | NBR 9077 | NT 2-08 CBMERJ
 
----
-
-### 5.2 FACHADA E REVESTIMENTOS
-
-#### 5.2.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- ⚠️ Tipo de revestimento (cerâmico, pedra, argamassa, pastilha?)
-- ⚠️ Estado de conservação, fissuras, destacamentos, manchas
-- Análise fotográfica IA: OC-02 (IMG_1472) — fissuração vertical com divergência entre modelos
-- Análise fotográfica IA: OC-03 (IMG_1609) — fissuração em revestimento cerâmico (P2 convergente)
-
-**Diagnóstico:** ⚠️ A preencher
-
-**Normas:** NBR 13755 | NBR 15846 (se aplicável)
-
-**Prioridade: ⚠️ A definir**
+**Prioridade: 1 — CRÍTICO** 🔴
 
 ---
 
-### 5.3 PROTEÇÃO DE BORDA / GUARDA-CORPOS
+#### 5.1.2 Piscina da cobertura — Infiltração estrutural e rachaduras generalizadas
 
-#### 5.3.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-04 (IMG_1484) — deterioração e possível descontinuidade (P1/P2)
-- ⚠️ Confirmar: continuidade, altura, fixações, corrosão, trechos afetados
+- Piscina na cobertura escoando água da chuva para dentro das estruturas do prédio
+- Danos confirmados na cobertura e no apartamento imediatamente abaixo (4º andar)
+- Rachaduras generalizadas no imóvel decorrentes de ciclos de esvaziamento e preenchimento da piscina
+- Movimentação de carga cíclica causando deslocamentos nas estruturas
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** A piscina na cobertura configura fonte ativa de patologia estrutural e de infiltração. Os ciclos de carga e descarga introduzem esforços variáveis nas estruturas, incompatíveis com o comportamento previsto em projeto. As rachaduras observadas são indicativo de dano estrutural acumulado que requer investigação especializada urgente.
 
-**Normas:** NBR 14718
+**Normas:** NBR 6118 | NBR 9575 | NBR 6122
 
-**Prioridade: ⚠️ A definir**
-
----
-
-### 5.4 INSTALAÇÕES ELÉTRICAS
-
-#### 5.4.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-05 (IMG_1669) — invólucro elétrico corroído, possível falha de fechamento (P1/P2)
-- ⚠️ Confirmar: quadros, disjuntores, aterramento, SPDA, iluminação de emergência
-
-**Diagnóstico:** ⚠️ A preencher
-
-**Normas:** NBR 5410 | Série NBR 5419
-
-**Prioridade: ⚠️ A definir**
+**Prioridade: 1 — CRÍTICO** 🔴
 
 ---
 
-### 5.5 INSTALAÇÕES DE GÁS
+#### 5.1.3 Revestimento da varanda da cobertura — Infiltração no pavimento inferior
 
-#### 5.5.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- ⚠️ Tipo de gás (GLP / GN), tubulações, central, estado geral
-- ⚠️ Registros de inspeção/estanqueidade disponíveis?
+- Revestimento de piso da varanda da cobertura mal aplicado
+- Junção varanda/edificação sem estanqueidade adequada — infiltração ativa para o apartamento abaixo
+- Piso na junção ao apartamento infiltrando água de forma contínua
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** Falha de impermeabilização e aplicação inadequada do revestimento geram infiltração contínua no 4º andar.
 
-**Normas:** NBR 15526
+**Normas:** NBR 9575 | NBR 13755
 
-**Prioridade: ⚠️ A definir**
-
----
-
-### 5.6 SISTEMA DE COMBATE A INCÊNDIO
-
-#### 5.6.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-06 (IMG_1631) — abrigo de hidrante com desgaste/sujidade (P1/P2)
-- ⚠️ Confirmar: extintores, hidrantes, mangueiras, registro, sinalização, iluminação de emergência
-
-**Diagnóstico:** ⚠️ A preencher
-
-**Normas:** NT 2-02 CBMERJ | NBR 13714 | NBR 12693
-
-**Prioridade: ⚠️ A definir**
+**Prioridade: 2 — REGULAR** 🟠
 
 ---
 
-### 5.7 ROTAS DE SAÍDA E CIRCULAÇÃO
+#### 5.1.4 Janelas da cobertura — Infiltração generalizada
 
-#### 5.7.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-07 (IMG_1560) — materiais armazenados junto a porta (P1 se obstrução confirmada)
-- ⚠️ Confirmar: escadas, corredores, sinalização, larguras, portas corta-fogo
+- Todas as janelas da cobertura com problemas de manutenção
+- Infiltração ativa e revestimento se soltando em todas as unidades inspecionadas
+- Problema identificado como restrito ao pavimento de cobertura nesta vistoria
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** Deterioração generalizada das esquadrias e vedações da cobertura. Requer substituição ou recuperação completa das vedações e revestimentos adjacentes.
 
-**Normas:** NT 2-08 CBMERJ | NBR 9077
+**Normas:** NBR 16747 | NBR 5674
 
-**Prioridade: ⚠️ A definir**
+**Prioridade: 2 — REGULAR** 🟠
 
 ---
 
-### 5.8 ELEVADORES
+#### 5.1.5 Antenas de telefonia — Laudo complementar necessário
 
-#### 5.8.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- ⚠️ Nº de elevadores, fabricante, empresa mantenedora
-- ⚠️ Cabos, portas, nivelamento, casa de máquinas, documentação
-- ⚠️ Último relatório da mantenedora disponível?
+- Presença de antenas de telefonia na cobertura
+- Documentação do operador, projeto estrutural de suportes, carga de vento e regularidade não verificados
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** Instalações de antenas em cobertura requerem laudo complementar específico contemplando cargas estruturais, ancoragens, interferência na impermeabilização, aterramento e regularidade perante operadora e legislação municipal.
+
+**Normas:** NBR 6123 | Série NBR 5419 | Legislação de telecomunicações aplicável
+
+**Prioridade: 2 — REGULAR** 🟠 *(requer laudo complementar específico)*
+
+---
+
+#### 5.1.6 Estrutura do telhado
+
+- Estrutura inspecionada visualmente — aparentemente em boas condições no momento da vistoria.
+
+**Prioridade: 3 — MÍNIMO** 🟡 *(monitoramento periódico recomendado)*
+
+---
+
+### 5.2 APARTAMENTO DE COBERTURA (DUPLEX)
+
+#### 5.2.1 Infiltração, mofo generalizado e condições de habitabilidade
+
+- Múltiplos pontos de infiltração relatados pelos moradores e visualizados durante a vistoria
+- Mofo generalizado por todo o apartamento, com concentração nos guarda-roupas
+- Guarda-roupas executados em madeira convencional — material inadequado para ambiente marinho com alta umidade
+- No momento da vistoria o ar-condicionado central estava desligado
+
+**Diagnóstico:** A combinação de infiltrações externas (piscina, varanda, janelas) com a desativação do ar-condicionado central cria condição crônica de umidade excessiva. Em imóveis próximos ao mar com sistema de ventilação mecânica centralizada, o ar-condicionado é componente necessário para a habitabilidade — seu desligamento prolongado é causa direta de proliferação de mofo e deterioração de materiais.
+
+> **Recomendação específica:** O ar-condicionado central deste apartamento não deve ser desligado. Seu funcionamento contínuo é condição necessária para a correta habitabilidade do imóvel em ambiente marinho.
+
+**Normas:** NBR 16747 | NBR 5674 | NBR 9575
+
+**Prioridade: 2 — REGULAR** 🟠
+
+---
+
+### 5.3 FACHADA
+
+#### 5.3.1 Pedras sem fixação mecânica — Risco de queda sobre pedestres
+
+- Diversas pedras da fachada sem fixação mecânica adequada em toda a extensão
+- **Todas as pedras da fachada na região das varandas encontram-se soltas**
+- Risco iminente de desprendimento e queda sobre pedestres, moradores e veículos
+
+**Diagnóstico:** A ausência de fixação mecânica nas pedras de revestimento de fachada — especialmente na região das varandas, sujeita a maior movimentação estrutural — configura risco crítico e imediato. O desprendimento de placas de pedra em altura é causa recorrente de acidentes graves. A situação exige interdição imediata da calçada no perímetro da edificação e inspeção especializada de toda a fachada antes de qualquer liberação de uso.
+
+**Normas:** NBR 15846:2010 | NBR 13755 | Decreto Municipal nº 24.519/2004
+
+**Prioridade: 1 — CRÍTICO** 🔴
+
+---
+
+### 5.4 PRISMA DE VENTILAÇÃO
+
+#### 5.4.1 Pastilhas em má conservação — Risco de desprendimento e infiltração
+
+- Pastilhas em diferentes estados de conservação e fixação
+- Condição geral: má conservação
+- Rejunte desgastado ou inexistente em diversas áreas
+- Pastilhas se soltando — risco de queda para os ambientes internos
+
+**Diagnóstico:** Deterioração generalizada do revestimento do prisma de ventilação. Pastilhas soltas e rejunte inexistente permitem infiltração de água nas estruturas adjacentes, conforme confirmado pelas ocorrências no 4º andar.
+
+**Normas:** NBR 13755 | NBR 9575
+
+**Prioridade: 2 — REGULAR** 🟠
+
+---
+
+### 5.5 ESCADA DE INCÊNDIO E ROTAS DE SAÍDA
+
+#### 5.5.1 Obstrução e fechamento de ventilações — Risco de morte em incêndio
+
+- Todos os patamares da escada de incêndio com obstrução nas ventilações
+- Em alguns patamares as ventilações estão completamente fechadas
+- Materiais armazenados na escada de incêndio — incluindo materiais potencialmente inflamáveis
+- Em situação de incêndio: acúmulo de fumaça tóxica na rota de fuga, impossibilitando evacuação e podendo causar mortes
+- Os materiais armazenados podem se incendiar, tornando a rota completamente inutilizável
+
+**Diagnóstico:** A escada de incêndio — que deve funcionar como rota de fuga protegida — encontra-se sistematicamente comprometida em todos os pavimentos. O fechamento das ventilações impede renovação de ar e dissipação de fumaça. A situação exige desobstrução imediata de todos os patamares e verificação do sistema de ventilação conforme projeto aprovado pelo CBMERJ.
+
+**Normas:** NBR 9077 | NT 2-08 CBMERJ | COSCIP/RJ
+
+**Prioridade: 1 — CRÍTICO** 🔴
+
+---
+
+#### 5.5.2 Infiltração na escada de incêndio
+
+- Vários pontos de infiltração ao longo da escada
+- Causa provável: demolição do prédio adjacente (lote ao lado) — confirmado em consulta durante a vistoria
+
+**Diagnóstico:** A demolição do edifício lindeiro alterou as condições de exposição da fachada confrontante, gerando novos pontos de entrada de água. Requer impermeabilização das interfaces afetadas.
+
+**Normas:** NBR 9575 | NBR 5674
+
+**Prioridade: 2 — REGULAR** 🟠
+
+---
+
+### 5.6 SINALIZAÇÃO DE EMERGÊNCIA E COMUNICAÇÃO VISUAL
+
+#### 5.6.1 Ausência total de sinalização de rotas de fuga
+
+- A edificação não possui sinalização correta de rotas de fuga em nenhum pavimento
+- Casas de máquinas sem pintura de piso adequada, sem sinalização de capacidade de carga
+- Comunicação visual ausente ou incorreta em toda a edificação
+
+**Diagnóstico:** A ausência total de sinalização de emergência compromete a capacidade de evacuação segura da edificação em qualquer situação de emergência. Todas as rotas de fuga, saídas, equipamentos de combate a incêndio e áreas técnicas devem ser sinalizadas conforme projeto aprovado pelo CBMERJ.
+
+**Normas:** NBR 13434 | NT 2-08 CBMERJ | COSCIP/RJ
+
+**Prioridade: 1 — CRÍTICO** 🔴
+
+---
+
+### 5.7 ELEVADORES E CASAS DE MÁQUINAS
+
+#### 5.7.1 Corrosão nos motores dos elevadores
+
+- Casas de máquinas com reformas e modernização realizadas
+- Motores com pontos de corrosão atribuídos à atmosfera marinha (classe III/IV)
+- Condição avaliada como incomum para equipamentos de elevador — requer tratamento imediato
+
+**Diagnóstico:** Corrosão em motores de elevador em ambiente marinho, embora previsível, não é aceitável sem proteção adequada. A progressão compromete confiabilidade e segurança dos equipamentos. Recomenda-se tratamento anticorrosivo e avaliação completa pela mantenedora quanto a cabos, freios e demais componentes metálicos.
 
 **Normas:** NBR 16083 | NBR NM 207
 
-**Prioridade: ⚠️ A definir**
+**Prioridade: 2 — REGULAR** 🟠
 
 ---
 
-### 5.9 COBERTURA, IMPERMEABILIZAÇÃO E ANTENAS
+#### 5.7.2 Não conformidades operacionais das casas de máquinas
 
-#### 5.9.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-08 (IMG_1490) — instalação de telecomunicações na cobertura (P2)
-- ⚠️ Confirmar: estado da impermeabilização, drenagem, telhado, reservatórios
-- ⚠️ Documentação do operador das antenas disponível?
+- Piso sem pintura adequada (contaminado por óleo)
+- Sem sinalização de capacidade de carga
+- Fixações mecânicas em material inadequado
+- Comunicação visual incorreta ou ausente
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** As casas de máquinas não atendem requisitos de segurança operacional para técnicos e mantenedores.
 
-**Normas:** NBR 9575 | NBR 6123
+**Normas:** NR-12 | NBR 16083
 
-**Prioridade: ⚠️ A definir**
-
----
-
-### 5.10 GARAGEM E ESTRUTURA DE TETO
-
-#### 5.10.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- Análise fotográfica IA: OC-01 (IMG_1638) — destacamento de revestimento no teto (P1/P2)
-- ⚠️ Confirmar: pilares, vigas, lajes expostas, armaduras, infiltrações
-
-**Diagnóstico:** ⚠️ A preencher
-
-**Normas:** NBR 6118 | NBR 5674
-
-**Prioridade: ⚠️ A definir**
+**Prioridade: 2 — REGULAR** 🟠
 
 ---
 
-### 5.11 ACESSIBILIDADE E ÁREAS COMUNS
+### 5.8 PAVIMENTOS 1º AO 3º ANDAR
 
-#### 5.11.1 ⚠️ [AGUARDA DESCRIÇÃO DO ENGENHEIRO]
-- ⚠️ Rampas, piscina, salão de festas, churrasqueira, playground, academia, sauna
-- ⚠️ Estado geral das áreas de lazer
+- Sem anomalias estruturais ou de conservação significativas nos apartamentos
+- Infiltrações pontuais identificadas — atribuídas à demolição do prédio lindeiro (causa externa e provisória)
+- Registros de moradores que desligam o ar-condicionado central — gerando umidade e mofo por comportamento dos usuários, não por falha do sistema predial
 
-**Diagnóstico:** ⚠️ A preencher
+**Diagnóstico:** Pavimentos tipo em condição satisfatória. As anomalias existentes têm causas externas identificadas.
 
-**Normas:** NBR 9050
+**Prioridade: 3 — MÍNIMO** 🟡
 
-**Prioridade: ⚠️ A definir**
+---
+
+### 5.9 4º ANDAR
+
+- Diversos pontos de infiltração
+- Causas identificadas: piscina/cobertura acima + prisma de ventilação com pastilhas soltas e rejunte inexistente
+- Resolução depende do saneamento das fontes na cobertura e no prisma
+
+**Normas:** NBR 9575 | NBR 5674
+
+**Prioridade: 2 — REGULAR** 🟠
 
 ---
 
 ## 6. QUADRO RESUMO DE OCORRÊNCIAS
 
-| Código | Sistema | Descrição resumida | Foto principal | Prioridade |
+| Código | Sistema | Descrição resumida | Local | Prioridade |
 |:---|:---|:---|:---|:---:|
-| OC-01 | Estrutura / teto garagem | Destacamento de revestimento | IMG_1638 | ⚠️ |
-| OC-02 | Fachada | Possível fissuração vertical | IMG_1472 | ⚠️ |
-| OC-03 | Fachada / cerâmico | Fissuração em revestimento | IMG_1609 | ⚠️ |
-| OC-04 | Guarda-corpo | Deterioração / descontinuidade | IMG_1484 | ⚠️ |
-| OC-05 | Elétrica | Invólucro corroído | IMG_1669 | ⚠️ |
-| OC-06 | Incêndio | Abrigo hidrante com desgaste | IMG_1631 | ⚠️ |
-| OC-07 | Rota de saída | Material junto a porta | IMG_1560 | ⚠️ |
-| OC-08 | Cobertura / antenas | Instalação de telecomunicações | IMG_1490 | ⚠️ |
-| OC-09 | ⚠️ A preencher | — | — | — |
-| OC-10 | ⚠️ A preencher | — | — | — |
+| OC-01 | Cobertura — guarda-corpo | Madeira podre, seções colapsadas, risco iminente de queda | Cobertura | 🔴 P1 |
+| OC-02 | Cobertura — piscina | Infiltração estrutural ativa, rachaduras generalizadas | Cobertura / 4º andar | 🔴 P1 |
+| OC-03 | Fachada | Pedras sem fixação mecânica — todas soltas nas varandas | Fachada geral | 🔴 P1 |
+| OC-04 | Escada de incêndio | Ventilações obstruídas/fechadas em todos os patamares | Todos os andares | 🔴 P1 |
+| OC-05 | Sinalização | Ausência total de sinalização de emergência | Toda a edificação | 🔴 P1 |
+| OC-06 | Cobertura — varanda | Revestimento mal aplicado, infiltração ativa no 4º andar | Cobertura | 🟠 P2 |
+| OC-07 | Cobertura — janelas | Todas com infiltração e revestimento se soltando | Cobertura | 🟠 P2 |
+| OC-08 | Apto cobertura | Mofo generalizado, ar-condicionado desligado, guarda-roupas inadequados | Apto cobertura | 🟠 P2 |
+| OC-09 | Prisma de ventilação | Pastilhas soltas, rejunte inexistente, infiltração | Prisma | 🟠 P2 |
+| OC-10 | Escada de incêndio | Infiltração por demolição do prédio lindeiro | Escada | 🟠 P2 |
+| OC-11 | Elevadores — motores | Corrosão por atmosfera marinha | Casa de máquinas | 🟠 P2 |
+| OC-12 | Casas de máquinas | Sem sinalização, piso inadequado, fixações incorretas | Casa de máquinas | 🟠 P2 |
+| OC-13 | Antenas de telefonia | Sem documentação — laudo complementar necessário | Cobertura | 🟠 P2 |
+| OC-14 | 4º andar | Infiltrações por piscina e prisma de ventilação | 4º andar | 🟠 P2 |
+| OC-15 | Pavimentos 1º–3º | Infiltrações pontuais por obra lindeira | 1º ao 3º andares | 🟡 P3 |
+| OC-16 | Cobertura — telhado | Estrutura aparentemente em boas condições | Cobertura | 🟡 P3 |
 
 ---
 
 ## 7. RECOMENDAÇÕES TÉCNICAS
 
-| Prioridade | Sistema | Ação recomendada | Prazo |
-|:---:|:---|:---|:---|
-| 🔴 P1 | ⚠️ A definir | ⚠️ A preencher | Imediato |
-| 🟠 P2 | ⚠️ A definir | ⚠️ A preencher | Curto prazo |
-| 🟡 P3 | ⚠️ A definir | ⚠️ A preencher | Médio prazo |
+### Ações imediatas — antes de qualquer outra providência
+
+| # | Ação | Justificativa |
+|:---|:---|:---|
+| 1 | **Interditar a calçada** no perímetro da edificação | Pedras de fachada soltas — risco de queda sobre pedestres |
+| 2 | **Desobstruir imediatamente** todos os patamares da escada de incêndio | Risco de morte em caso de incêndio |
+| 3 | **Isolar acesso à cobertura** até substituição do guarda-corpo | Guarda-corpo colapsado — risco de queda |
+| 4 | **Paralisar uso da piscina** até laudo estrutural específico | Infiltração ativa e rachaduras estruturais em progressão |
+
+### Curto prazo — P1
+
+| Sistema | Ação recomendada |
+|:---|:---|
+| Fachada | Inspeção especializada completa + instalação de fixação mecânica em todas as pedras |
+| Guarda-corpo cobertura | Substituição completa em aço inox ou alumínio conforme NBR 14718 |
+| Sinalização de emergência | Projeto e instalação em toda a edificação |
+| Escada de incêndio | Desobstrução, verificação de ventilação conforme projeto CBMERJ, AVCB |
+
+### Médio prazo — P2
+
+| Sistema | Ação recomendada |
+|:---|:---|
+| Piscina | Laudo estrutural específico + impermeabilização completa ou desativação definitiva |
+| Janelas da cobertura | Substituição de vedações e recuperação de revestimentos |
+| Varanda cobertura | Repermeabilização e refazimento do revestimento |
+| Prisma de ventilação | Recuperação completa: remoção de pastilhas soltas, rejunte e reposição |
+| Elevadores | Tratamento anticorrosivo dos motores + relatório completo da mantenedora |
+| Casas de máquinas | Pintura de piso, sinalização de carga, substituição de fixações |
+| Apto cobertura | Tratamento de mofo, orientação ao morador sobre ar-condicionado, substituição de guarda-roupas por material adequado |
+| Infiltrações escada | Impermeabilização da fachada confrontante ao lote demolido |
+| Antenas | Contratação de laudo complementar específico com operadora |
 
 ---
 
 ## 8. PARECER TÉCNICO
 
-⚠️ **A ser redigido pelo responsável técnico após conclusão da inspeção.**
+A edificação apresenta **cinco não conformidades de Prioridade 1 — CRÍTICO**, com risco iminente à integridade física dos moradores, visitantes e pedestres:
 
-Considerar:
-- Condição global de conservação
-- Nível de risco para os usuários
-- Necessidade de restrição de uso de algum trecho/equipamento
-- Recomendação ou não de desocupação parcial/total
+A **fachada com pedras soltas** em toda a extensão — e todas as pedras na região de varandas já desvinculadas da estrutura — representa o mais grave risco externo imediato. A interdição do perímetro da calçada é medida necessária antes mesmo da conclusão deste laudo.
+
+A **escada de incêndio com ventilações obstruídas e fechadas em todos os pavimentos** torna a edificação incapaz de realizar evacuação segura. Esta condição configura risco direto de morte em caso de emergência.
+
+O **guarda-corpo da cobertura**, parcialmente colapsado e em madeira apodrecida, apresentou risco real durante a própria vistoria, quase causando queda do engenheiro responsável.
+
+A **piscina da cobertura** está atuando como fonte ativa de danos estruturais, com rachaduras que se propagam por múltiplos pavimentos e infiltrações ativas comprovadas.
+
+A **ausência total de sinalização de emergência** em toda a edificação agrava o risco das demais não conformidades e impede qualquer evacuação organizada.
+
+Os pavimentos tipo (1º ao 3º andar) apresentam condição razoável, com anomalias de causa externa identificada e caráter provisório.
 
 ---
 
 ## 9. CONCLUSÃO
 
-⚠️ **A ser redigida após revisão técnica completa.**
+O Condomínio Jardim das Flores — Rua João Lira, 15, Leblon/RJ — **não atende às condições mínimas de segurança** nos sistemas de fachada, proteção de borda, rotas de fuga e prevenção de incêndio.
+
+São recomendadas de forma imediata, sem aguardar a emissão do laudo definitivo:
+
+1. Interdição da calçada no perímetro da edificação
+2. Desobstrução de todos os patamares da escada de incêndio
+3. Isolamento do acesso à cobertura
+4. Paralisação do uso da piscina
+
+A emissão do laudo definitivo assinado pelo responsável técnico, com ART/RRT, deverá ser comunicada ao Município conforme Decreto nº 37.426/2013.
 
 ---
 
@@ -299,16 +417,15 @@ Considerar:
 | **Responsável Técnico** | ⚠️ A preencher |
 | **Registro CREA/CAU** | ⚠️ A preencher |
 | **ART / RRT** | ⚠️ A preencher |
-| **Data da vistoria** | ⚠️ A preencher |
+| **Data da vistoria** | Novembro de 2026 |
 | **Data de emissão** | ⚠️ A preencher |
-| **Comunicação municipal** | A verificar após emissão |
+| **Comunicação municipal** | A realizar após emissão do laudo assinado |
 
 ---
 
 ## ANEXOS
 
-1. Análise fotográfica completa — `Laudo/Analise_Fotografica_Completa.md`
-2. Acervo fotográfico — `Fotos_Organizadas/` (210 imagens)
-3. Metadados do imóvel — `../METADADOS_IMOVEL.md`
-4. Matriz de prioridades por foto (IA) — `../Previa e Comparacao/MATRIZ_210_FOTOS.md`
-5. Prévia consolidada (IA) — `../Previa e Comparacao/RELATORIO_AUTOVISTORIA_JARDIM_DAS_FLORES_V02.md`
+1. Acervo fotográfico — 210 imagens (`Fotos_Organizadas/`)
+2. Metadados do imóvel — `../METADADOS_IMOVEL.md`
+3. Análise fotográfica IA — `Analise_Fotografica_Completa.md` *(a gerar via Script 01)*
+4. Matriz de prioridades por foto — `../Previa e Comparacao/MATRIZ_210_FOTOS.md`
