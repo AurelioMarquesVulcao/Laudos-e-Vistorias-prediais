@@ -305,16 +305,14 @@ substituicoes = {
     'CONDOMINIO DO EDIFICIO SOLAR CARAVELAS':  'CONDOMÍNIO JARDIM DAS FLORES',
     'Condomínio Solar Caravelas':              'Condomínio Jardim das Flores',
     'Solar Caravelas':                         'Jardim das Flores',
-    'Rua João Lira, nº 60':                   'Rua João Lira, nº 15',
-    'João Lira, 60':                           'João Lira, 15',
-    'nº 60':                                   'nº 15',
+    'Rua João Lira, nº 60 — Leblon, Rio de Janeiro/RJ': 'Rua João Lira, nº 15 — Leblon, Rio de Janeiro/RJ',
     'TD 071/2026':                             'LTVP-2026-JDF-015',
     '29 de Março de 2026':                     '08 de novembro de 2026',
-    'Março de 2026 (inicial) / 10 d':          '05 de novembro de 2026',
+    'Março de 2026 (inicial) / 10 de maio de 2026 (complementar — Apto 301 e fachada)': '05 de novembro de 2026',
     'Superior a 50 anos':                      'A confirmar documentalmente',
     'Revestimento em mármore':                 'Revestimento em pedra (fixação mecânica)',
-    'Subsolo + Garagem + Térreo + P':          'Cobertura duplex + 4 pavimentos tipo + garagem',
-    'A menos de 500m da orla maríti':          'Próximo à orla marítima — classe III/IV (NBR 6118)',
+    'Subsolo + Garagem + Térreo + PUC + 7 pavimentos tipo': 'Cobertura duplex + 4 pavimentos tipo + garagem',
+    'A menos de 500m da orla marítima (atmosfera marinha — classe de agressividade III/IV conforme NBR 6118)': 'Próximo à orla marítima — classe de agressividade III/IV (NBR 6118)',
 }
 
 def replace_in_para(para, subs):

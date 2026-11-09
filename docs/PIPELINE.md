@@ -18,14 +18,36 @@ Fotos JPEG (iPhone)
 [03] Elaborar laudo MD   →  preencher ocorrências, prioridades, recomendações
         │                   Laudo_<Nome>.md (fonte da verdade)
         ▼
-[04] Gerar DOCX v5       →  papel timbrado + fotos incorporadas
-        │                   gerar_laudo_v5.py
+[04] Gerar DOCX (gerar_laudo_vN.py)
+        │   Base: Model-01.docx (pages 1–2 intactas, dados substituídos)
+        │   Conteúdo inserido a partir da Seção 3 (página 3 em diante)
+        │   Script gera Laudo_<Nome>_vN.docx — nunca sobrescreve versões anteriores
         ▼
-[05] Revisar e commitar  →  branch dev → revisão → merge main
+[05] ⚠️  ATUALIZAÇÃO MANUAL OBRIGATÓRIA — ver nota abaixo
         │
         ▼
-Laudo_<Nome>_v5.docx  ✅  entrega ao cliente
+[06] Revisar e commitar  →  branch dev → revisão → merge main
+        │
+        ▼
+Laudo_<Nome>_vN.docx  ✅  entrega ao cliente
 ```
+
+> ⚠️ **ATENÇÃO — ETAPA MANUAL OBRIGATÓRIA (Etapa 05)**
+>
+> O script gera o DOCX automaticamente a partir do Markdown, **mas as páginas 1 e 2
+> devem ser revisadas e corrigidas manualmente pelo executor do laudo** antes da entrega.
+>
+> O script substitui os dados do modelo de referência (Solar Caravelas) pelos dados
+> da nova vistoria, mas **não tem como saber** o que mudou no layout, formatação
+> ou conteúdo específico das páginas 1 e 2 do Model-01.
+>
+> **O executor deve abrir o DOCX gerado e verificar manualmente:**
+> - Página 1 — capa: nome do condomínio, endereço, código do laudo, data, RT, ART/RRT
+> - Página 2 — Seções 1 e 2: tabela de identificação (todos os campos), texto do Objetivo
+> - Qualquer dado residual do Solar Caravelas que o script não tenha substituído
+> - Número da ART/RRT (sempre `XXXX` até o RT fornecer o número real)
+>
+> **Nenhuma versão do script substitui essa revisão humana.**
 
 ---
 
