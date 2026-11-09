@@ -488,20 +488,15 @@ A emissão do laudo definitivo assinado pelo responsável técnico, com ART/RRT,
 
 ## 10. ENCERRAMENTO
 
-| Campo | Preenchimento |
-|:---|:---|
-| **Responsável Técnico** | Eng.º Civil Rafael Mendes Cavalcanti |
-| **Registro CREA/CAU** | CREA-RJ 2019114-7 |
-| **ART / RRT** | XXXX |
-| **Data da vistoria** | 05 de novembro de 2026 |
-| **Data de emissão** | 08 de novembro de 2026 |
-| **Comunicação municipal** | A realizar após emissão do laudo assinado |
+As anomalias identificadas neste laudo foram constatadas mediante inspeção visual e sensorial (Nível 1 — NBR 16747:2020), com registro fotográfico de 210 imagens, realizada nas dependências do Condomínio Jardim das Flores em novembro de 2026.
+
+O presente laudo tem caráter técnico e informativo, destinando-se ao síndico e à administração do condomínio para fins de planejamento das intervenções necessárias e cumprimento das obrigações legais de autovistoria predial.
 
 ---
 
-## ANEXOS
+Local e data: Rio de Janeiro, novembro de 2026.
 
-1. Acervo fotográfico — 210 imagens (`Fotos_Organizadas/`)
-2. Metadados do imóvel — `../METADADOS_IMOVEL.md`
-3. Análise fotográfica IA — `Analise_Fotografica_Completa.md` *(a gerar via Script 01)*
-4. Matriz de prioridades por foto — `../Previa e Comparacao/MATRIZ_210_FOTOS.md`
+Responsável técnico:
+
+Aurélio Marques Vulcão
+CREA-RJ 2011101849
