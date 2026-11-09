@@ -11,6 +11,8 @@
 |:---|:---|
 | [ARQUITETURA.md](ARQUITETURA.md) | Estrutura do repositório, convenções e organização de pastas |
 | [PIPELINE.md](PIPELINE.md) | Pipeline completo de produção de um laudo (fotos → DOCX) |
+| [DESCRICAO_IMOVEL.md](DESCRICAO_IMOVEL.md) | Descrição física completa do imóvel vistoriado |
+| [HISTORICO_EXECUCAO.md](HISTORICO_EXECUCAO.md) | Ordem cronológica de todos os passos executados no projeto |
 | [ACERTOS.md](ACERTOS.md) | O que funcionou bem — com comandos e contexto para reproduzir |
 | [ERROS.md](ERROS.md) | O que não funcionou — causa raiz e o que resolveu |
 | [LICOES_APRENDIDAS.md](LICOES_APRENDIDAS.md) | Lições técnicas fixadas para vistorias futuras |
