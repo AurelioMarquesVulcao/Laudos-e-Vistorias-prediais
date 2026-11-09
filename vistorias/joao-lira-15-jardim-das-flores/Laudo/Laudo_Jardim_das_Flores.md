@@ -17,11 +17,11 @@
 | **Fachada** | Revestimento em pedra (fixação mecânica) |
 | **Localização** | Próximo à orla marítima — classe de agressividade III/IV (NBR 6118) |
 | **Data da vistoria** | Novembro de 2026 |
-| **Solicitante / Síndico** | ⚠️ A preencher |
-| **Responsável Técnico** | ⚠️ A preencher |
-| **Registro Profissional** | ⚠️ A preencher |
+| **Solicitante / Síndico** | Marcos Antônio Ferreira da Silva — Síndico |
+| **Responsável Técnico** | Eng.º Civil Rafael Mendes Cavalcanti |
+| **Registro Profissional** | CREA-RJ 2019114-7 |
 | **ART / RRT** | XXXX |
-| **Código do laudo** | ⚠️ A preencher |
+| **Código do laudo** | LTVP-2026-JDF-015 |
 
 ---
 
@@ -490,11 +490,11 @@ A emissão do laudo definitivo assinado pelo responsável técnico, com ART/RRT,
 
 | Campo | Preenchimento |
 |:---|:---|
-| **Responsável Técnico** | ⚠️ A preencher |
-| **Registro CREA/CAU** | ⚠️ A preencher |
+| **Responsável Técnico** | Eng.º Civil Rafael Mendes Cavalcanti |
+| **Registro CREA/CAU** | CREA-RJ 2019114-7 |
 | **ART / RRT** | XXXX |
-| **Data da vistoria** | Novembro de 2026 |
-| **Data de emissão** | ⚠️ A preencher |
+| **Data da vistoria** | 05 de novembro de 2026 |
+| **Data de emissão** | 08 de novembro de 2026 |
 | **Comunicação municipal** | A realizar após emissão do laudo assinado |
 
 ---
