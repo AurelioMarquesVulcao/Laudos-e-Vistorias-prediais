@@ -14,13 +14,19 @@ from docx.oxml import OxmlElement
 import re, os, copy
 
 # ─── Caminhos ─────────────────────────────────────────────────────────────────
-TIMBRADO_BASE = "/tmp/ref_laudo60/PAPEL_TIMBRADO.docx"
-LOGO_PNG      = "/tmp/ref_assets/header_logo.png"
-FOTOS_DIR = "/tmp/fotos_docx"
-LAUDO_MD = "/tmp/repo_laudos_mac/vistorias/joao-lira-15-jardim-das-flores/Laudo/Laudo_Jardim_das_Flores.md"
+# Paths resolvidos relativamente ao script para rodar de qualquer lugar
+_REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_LAUDO_DIR = os.path.join(_REPO, "Laudo")
+_ASSETS    = os.path.join(_REPO, "assets")
+_FOTOS     = os.path.join(_REPO, "fotos_vistoria")
 
-OUT_MODELO = "/tmp/repo_laudos_mac/vistorias/joao-lira-15-jardim-das-flores/Laudo/Modelo_Pagina_Timbrada.docx"
-OUT_V5 = "/tmp/repo_laudos_mac/vistorias/joao-lira-15-jardim-das-flores/Laudo/Laudo_Jardim_das_Flores_v5.docx"
+TIMBRADO_BASE = None  # não usamos base DOCX — construímos do zero
+LOGO_PNG      = os.path.join(_ASSETS, "header_logo.png")
+FOTOS_DIR     = _FOTOS
+LAUDO_MD      = os.path.join(_LAUDO_DIR, "Laudo_Jardim_das_Flores.md")
+
+OUT_MODELO = os.path.join(_LAUDO_DIR, "Modelo_Pagina_Timbrada.docx")
+OUT_V5     = os.path.join(_LAUDO_DIR, "Laudo_Jardim_das_Flores_v5.docx")
 
 # ─── Cores ────────────────────────────────────────────────────────────────────
 AZUL  = RGBColor(0x1F, 0x49, 0x7D)
