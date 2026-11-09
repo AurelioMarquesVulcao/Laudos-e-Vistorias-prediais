@@ -1,0 +1,7 @@
+# Fotos da vistoria — ficam locais, não vão ao Git
+fotos_vistoria/
+fotos_small/
+fotos_docx/
+*.jpeg
+*.jpg
+!assets/*.png
