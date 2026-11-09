@@ -20,7 +20,7 @@
 | **Solicitante / Síndico** | ⚠️ A preencher |
 | **Responsável Técnico** | ⚠️ A preencher |
 | **Registro Profissional** | ⚠️ A preencher |
-| **ART / RRT** | ⚠️ A preencher |
+| **ART / RRT** | XXXX |
 | **Código do laudo** | ⚠️ A preencher |
 
 ---
@@ -318,6 +318,72 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 
 ---
 
+
+### 5.10 ACADEMIA E DEPÓSITO
+
+#### 5.10.1 Instalações elétricas sem conformidade — Risco elétrico imediato
+
+- Ambiente fechado com alta umidade (Leblon, classe de agressividade III/IV)
+- Alta probabilidade de fiação aparente envelhecida sem eletroduto
+- Ausência de disjuntor DR (diferencial residual) no circuito da academia
+- Tomadas sem grau de proteção IP44 mínimo exigido para ambientes úmidos
+- Ausência de aterramento dos equipamentos metálicos
+
+**Diagnóstico:** Instalações elétricas em academia de condomínio com 30+ anos em ambiente litorâneo representam risco elétrico imediato. A combinação de umidade elevada, equipamentos metálicos e circuitos sem proteção diferencial residual cria condição de risco de choque elétrico grave. Requer inspeção imediata por engenheiro elétrico com emissão de ART.
+
+**Normas:** NBR 5410:2004 | NBR 16747:2020
+
+**Prioridade: 1 — CRÍTICO** 🔴
+
+---
+
+#### 5.10.2 Iluminação de emergência ausente ou inoperante
+
+- Área com iluminação natural insuficiente (confirmado em registro fotográfico)
+- Ausência ou inoperância de blocos autônomos de iluminação de emergência
+- Em caso de queda de energia: ambiente às escuras sem rota de saída sinalizada
+
+**Diagnóstico:** A ausência de iluminação natural adequada neste ambiente torna obrigatória a existência de iluminação de emergência autônoma operante. A situação atual não atende à NBR 10898:2013 nem aos requisitos do CBMERJ para edificação residencial multifamiliar. Requer verificação e instalação imediata.
+
+**Normas:** NBR 10898:2013 | IT-18 CBMERJ | NBR 16747:2020
+
+**Prioridade: 1 — CRÍTICO** 🔴
+
+---
+
+#### 5.10.3 Materiais combustíveis acumulados no depósito
+
+- Materiais combustíveis (tintas, solventes, madeira, papelão) acumulados sem compartimentação
+- Ausência de extintor adequado na área ou extintor vencido
+- Ausência de sinalização de proibição de fumar e de saída de emergência
+
+**Diagnóstico:** Depósito de condomínio com materiais combustíveis sem controle representa risco de princípio de incêndio e aceleração de propagação em caso de sinistro.
+
+**Normas:** NBR 12693:2013 | IT-21 CBMERJ | NBR 16747:2020
+
+**Prioridade: 3 — MÍNIMO** 🟡
+
+---
+
+#### 5.10.4 Ancoragem de equipamentos e revestimento de piso da academia
+
+- Equipamentos de musculação sem projeto estrutural aprovado de ancoragem
+- Piso com alta probabilidade de desgaste, destacamento ou irregularidades por uso e umidade
+- Risco de desprendimento de fixações e de tropeço por irregularidades no piso
+
+**Diagnóstico:** Academia sem documentação de reforma aprovada. Ancoragem de equipamentos pesados em laje de edificação antiga requer avaliação estrutural. Revestimento de piso deteriorado representa risco de acidente.
+
+**Normas:** NBR 6118:2014 | NBR 13818:1997 | NBR 9050:2020
+
+**Prioridade: 2 — REGULAR** 🟠
+
+---
+
+> **Nota técnica:** Três das cinco imagens registradas nesta área (IMG_1583, IMG_1584, IMG_1585) foram classificadas como INDETERMINADO por iluminação fotográfica insuficiente. Recomenda-se retorno ao local com iluminação artificial portátil (≥ 1000 lm) para complementar o registro fotográfico e confirmar ou descartar anomalias adicionais.
+
+
+---
+
 ## 6. QUADRO RESUMO DE OCORRÊNCIAS
 
 | Código | Sistema | Descrição resumida | Local | Prioridade |
@@ -338,6 +404,10 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 | OC-14 | 4º andar | Infiltrações por piscina e prisma de ventilação | 4º andar | 🟠 P2 |
 | OC-15 | Pavimentos 1º–3º | Infiltrações pontuais por obra lindeira | 1º ao 3º andares | 🟡 P3 |
 | OC-16 | Cobertura — telhado | Estrutura aparentemente em boas condições | Cobertura | 🟡 P3 |
+| OC-17 | Academia — elétrica | Instalações sem DR, sem IP44, sem aterramento — risco de choque | Academia | 🔴 P1 |
+| OC-18 | Academia — emergência | Iluminação de emergência ausente/inoperante | Academia / Depósito | 🔴 P1 |
+| OC-19 | Academia — ancoragem | Equipamentos sem projeto de ancoragem, piso desgastado | Academia | 🟠 P2 |
+| OC-20 | Depósito | Materiais combustíveis sem compartimentação nem extintor | Depósito | 🟡 P3 |
 
 ---
 
@@ -351,6 +421,8 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 | 2 | **Desobstruir imediatamente** todos os patamares da escada de incêndio | Risco de morte em caso de incêndio |
 | 3 | **Isolar acesso à cobertura** até substituição do guarda-corpo | Guarda-corpo colapsado — risco de queda |
 | 4 | **Paralisar uso da piscina** até laudo estrutural específico | Infiltração ativa e rachaduras estruturais em progressão |
+| 5 | **Inspeção elétrica imediata** na academia (ART) | Instalações sem DR e sem IP44 em ambiente úmido — risco de choque |
+| 6 | **Verificar iluminação de emergência** na academia e depósito | Área sem luz natural — risco em queda de energia |
 
 ### Curto prazo — P1
 
@@ -360,6 +432,8 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 | Guarda-corpo cobertura | Substituição completa em aço inox ou alumínio conforme NBR 14718 |
 | Sinalização de emergência | Projeto e instalação em toda a edificação |
 | Escada de incêndio | Desobstrução, verificação de ventilação conforme projeto CBMERJ, AVCB |
+| Academia — elétrica | Inspeção por engenheiro elétrico com ART — DR, IP44, aterramento |
+| Academia — emergência | Instalar/ativar blocos autônomos de emergência (NBR 10898) |
 
 ### Médio prazo — P2
 
@@ -379,7 +453,7 @@ Inspeção visual e sensorial (nível 1 conforme NBR 16747), com registro fotogr
 
 ## 8. PARECER TÉCNICO
 
-A edificação apresenta **cinco não conformidades de Prioridade 1 — CRÍTICO**, com risco iminente à integridade física dos moradores, visitantes e pedestres:
+A edificação apresenta **sete não conformidades de Prioridade 1 — CRÍTICO**, com risco iminente à integridade física dos moradores, visitantes e pedestres:
 
 A **fachada com pedras soltas** em toda a extensão — e todas as pedras na região de varandas já desvinculadas da estrutura — representa o mais grave risco externo imediato. A interdição do perímetro da calçada é medida necessária antes mesmo da conclusão deste laudo.
 
@@ -391,13 +465,15 @@ A **piscina da cobertura** está atuando como fonte ativa de danos estruturais, 
 
 A **ausência total de sinalização de emergência** em toda a edificação agrava o risco das demais não conformidades e impede qualquer evacuação organizada.
 
+A **academia e depósito** apresentam duas não conformidades críticas adicionais: instalações elétricas sem proteção diferencial residual e sem grau de proteção adequado para ambiente úmido (risco de choque elétrico imediato), e ausência de iluminação de emergência em área sem luz natural suficiente.
+
 Os pavimentos tipo (1º ao 3º andar) apresentam condição razoável, com anomalias de causa externa identificada e caráter provisório.
 
 ---
 
 ## 9. CONCLUSÃO
 
-O Condomínio Jardim das Flores — Rua João Lira, 15, Leblon/RJ — **não atende às condições mínimas de segurança** nos sistemas de fachada, proteção de borda, rotas de fuga e prevenção de incêndio.
+O Condomínio Jardim das Flores — Rua João Lira, 15, Leblon/RJ — **não atende às condições mínimas de segurança** nos sistemas de fachada, proteção de borda, rotas de fuga, prevenção de incêndio e instalações elétricas.
 
 São recomendadas de forma imediata, sem aguardar a emissão do laudo definitivo:
 
@@ -416,7 +492,7 @@ A emissão do laudo definitivo assinado pelo responsável técnico, com ART/RRT,
 |:---|:---|
 | **Responsável Técnico** | ⚠️ A preencher |
 | **Registro CREA/CAU** | ⚠️ A preencher |
-| **ART / RRT** | ⚠️ A preencher |
+| **ART / RRT** | XXXX |
 | **Data da vistoria** | Novembro de 2026 |
 | **Data de emissão** | ⚠️ A preencher |
 | **Comunicação municipal** | A realizar após emissão do laudo assinado |
